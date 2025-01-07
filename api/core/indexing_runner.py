@@ -19,7 +19,7 @@ from core.model_manager import ModelInstance, ModelManager
 from core.model_runtime.entities.model_entities import ModelType
 from core.rag.cleaner.clean_processor import CleanProcessor
 from core.rag.datasource.keyword.keyword_factory import Keyword
-from core.rag.docstore.dataset_docstore import DatasetDocumentStore
+from api.core.rag.dataset_docstore import DatasetDocumentStore
 from core.rag.extractor.entity.extract_setting import ExtractSetting
 from core.rag.index_processor.constant.index_type import IndexType
 from core.rag.index_processor.index_processor_base import BaseIndexProcessor
